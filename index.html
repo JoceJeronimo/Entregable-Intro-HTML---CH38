@@ -2,24 +2,48 @@
 No olvides colocar un comentario por cada cosa que modifiques-->
 
 <!DOCTYPE html>
-<html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo-- >
-<head>
-<meta charset=”UTF-65”>
-<meta name="viewport" content="Ejercicio HTML - Corrige los errores">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-</head>
-<title>World Wide Web</title>
-<body>
+<html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo-->  <!--elimine el espacion que habia entre el guion medio (-) y el simbolo de mayor (>) para asi indicar que alli terminaba contenido del comentario.-->
+    <head> <!-- coloque identacion para mejor visualizacion y comprencion del codigo-->
+        <meta charset="”UTF-65”" /> <!-- coloque identacion para mejor visualizacion y comprencion del codigo-->
+        <meta name="viewport" content="Ejercicio HTML - Corrige los errores" /> <!-- coloque identacion para mejor visualizacion y comprencion del codigo-->
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" /> <!-- coloque identacion para mejor visualizacion y comprencion del codigo-->
+        <link rel="icon" type="image/x-icon" href="./assets/imagenes_index/www.png"> <!-- Agregue un icono a la pestaña de la pagina-->
+        <style type="text/css" id="operaUserStyle"></style> <!--Se agrego la linea del estilo-->
 
-<h1>World Wide Web</h1>
+    </head> <!-- coloque identacion para mejor visualizacion y comprencion del codigo, esta identacion debe coincidir con la misma sangria del inicio de la etiqueta-->
 
-<p>
-En informática, la <strong>World Wide Web<strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
+  <title>World Wide Web </title> 
+  <body style="background-color:#D0B8EE;"> <!--Se agrego un color de fondo a la pagina-->
+    <!--Elimine el salto de linea entre body y el titulo-->
+    <h1 style="color: #00839B;"><center><img src="https://zacualtipan.hidalgo.gob.mx/descargables/Imagenes/1150626.png" width="90" height="90" alt="Imagen que muestra la triple w con una lupa, esta imagen es con fines de dar formato "> <a href="https://es.wikipedia.org/wiki/World_Wide_Web">World Wide Web</a></center>
+    </h1> <!-- inserte la etiqueta center para centrar el texto, dentro del texto se coloco el enlace a wl tema en wikipedia ara mayor información, agregue un color a la fuente y coloque identacion para mejor visualizacion y comprencion del codigo. Se inserto una imagen por medio de un URL para dar un mejor formato y visualizacion a la pagina-->
 
-<h2>Historia<h2>
+    <p align="justify">En informática, la <strong>World Wide Web</strong> (WWW) o red informática
+      mundial comúnmente conocida como la web, es un sistema de distribución de
+      documentos de hipertexto o hipermedios interconectados y accesibles vía
+      Internet. Con un navegador web, un usuario visualiza sitios web compuestos
+      de páginas web que pueden contener texto, imágenes, vídeos u otros
+      contenidos multimedia, y navega a través de esas páginas usando
+      hiperenlaces.
+    </p> <!-- Se elimino el salto de linea para que el texto empezara con la etiqueta de parrafo (</p>), agregue el cierre de la etiqueta que resalta el texto(</strong<) y se agrego la sangria para tener una identacion mas comprensible para el codigo, se justifico el texto con aling-->
 
-<p>
-La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN en Ginebra, Suiza, y publicado en 1992.
-</p>
+    <h2><center><a href="https://es.wikipedia.org/wiki/World_Wide_Web#Historia">Historia</a><img src="https://i.gifer.com/origin/e4/e4cd0639b5a5c1e164aeff4370ed2365_w200.gif" width="90" height="90" alt="Imagen de un libro haciendo haciendo referencia al titulo de la historia ">
+    </h2></center> <!--Se agrego el cierre a la etiqueta para el titulo (</h2>), se centro el titulo con la etiqueta center, dentro del titulo se coloco el enlace a wikipedia en el modulo "historia" para mas informacion y se agrego una imagen gif por medio de un URL-->
 
-<p>Fuente: <em>Wikipedia</p></em>
+    <p align="justify">La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés
+      Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban
+      en el <em>CERN</em> en Ginebra, Suiza, y publicado en 1992.</p> <!-- se agrego el cierre de la etiqueta que enfatiza la palabra CERN (</em>) y coloque identacion para mejor comprencion del codigo , se justifico el texto con aling-->
+    <figure><center>
+        <img src="./assets/imagenes_index/Tim.jfif" width="250" height="215" alt="Imagen que muestra al desarrollador de la web."> <!--imagen del creador -->
+            <a href="https://es.wikipedia.org/wiki/Tim_Berners-Lee"> <!-- enlace a la pagina de wikipedia con informacion del personaje-->
+                <figcaption>Timothy "Tim" John Berners-Lee</figcaption> <!--pie de foto con el nombre del personaje-->
+            </a>
+    </figure></center> <!-- Se agrego una imagen del creador de la web centrandola y colocandole un pie en la imagen con el nombre del mismo, este pie de imagen fue conectado a la URL de wikipedia donde se podra encontrar mas informacion del personaje-->
+    
+    
+       <img align="right" src="./assets/imagenes_index/MundoComp.gif" width="90" height="90" alt="Gift computadora con el mundo dinamico."> <!--se coloco en gif con fines de dar mas diseño a la pagina -->
+ 
+    
+    <p align="right">Fuente: <em style="color: #FF0000;">Wikipedia</em></p> <!--Cambie el orden de las etiquetas de cierre para parrafo y enfatizar las palabras y se agrego el atributo aling para mover esta linea de texto a la derecha, asi mismo se agrego un color diferente a la palabra wikipedia con el atributo de style-->
+  </body> <!-- Se agrego la etiqueta de cierre de la etiqueta para el body-->
+</html> <!--Se agrego la etiqueta de cierre del documento-->
